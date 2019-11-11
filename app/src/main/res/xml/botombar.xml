@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/home"
+        title="Home"
+        activeColor ="@color/colorPrimary"
+        titleSize = "4sp"/>
+    <tab
+        id="@+id/tab_favorit"
+        icon="@drawable/love"
+        title="Favorit"
+        activeColor ="@color/colorPrimary"
+        titleSize = "4sp"/>
+    <tab
+        id="@+id/tab_keranjang"
+        icon="@drawable/keranjang"
+        title="Keranjang"
+        activeColor ="@color/colorPrimary"
+        titleSize = "4sp"/>
+    <tab
+        id="@+id/tab_transaksi"
+        icon="@drawable/transaski"
+        title="Transaksi"
+        activeColor ="@color/colorPrimary"
+        titleSize = "4sp"/>
+    <tab
+        id="@+id/tab_akun"
+        icon="@drawable/user"
+        title="Akun"
+        activeColor ="@color/colorPrimary"
+        titleSize = "4sp"/>
+</tabs>

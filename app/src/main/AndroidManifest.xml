@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dev7.testbotnav">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            ></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Catalog" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StatusActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Panduan" />
+        <activity android:name=".Apotik" />
+        <activity android:name=".Detail.Detail_bayam" />
+        <activity android:name=".Detail.Detail_dewa" />
+        <activity android:name=".Detail.Detail_kelor" />
+        <activity android:name=".Detail.Detail_miana" />
+        <activity android:name=".Lihat" />
+        <activity android:name=".Edit" />
+        <activity android:name=".SignIn" />
+        <!-- <activity android:name=".Splash"></activity> -->
+        <activity android:name=".SignUp" />
+
+    </application>
+
+</manifest>
